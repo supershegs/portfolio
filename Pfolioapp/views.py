@@ -16,10 +16,6 @@ recipient_list = [EMAIL_HOST_USER, ]
 recipient_email = settings.EMAIL_HOST_USER
 
 
-
-
-
-
 class homeView(View):
     def get(self, request):
         return render(request, 'index.html')
